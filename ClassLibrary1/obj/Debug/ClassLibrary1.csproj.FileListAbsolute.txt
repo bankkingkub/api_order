@@ -1,0 +1,12 @@
+C:\Users\Work\source\repos\Api_Order01\ClassLibrary1\bin\Debug\ClassLibrary1.dll.config
+C:\Users\Work\source\repos\Api_Order01\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\Work\source\repos\Api_Order01\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\Work\source\repos\Api_Order01\ClassLibrary1\bin\Debug\EntityFramework.dll
+C:\Users\Work\source\repos\Api_Order01\ClassLibrary1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Work\source\repos\Api_Order01\ClassLibrary1\bin\Debug\EntityFramework.xml
+C:\Users\Work\source\repos\Api_Order01\ClassLibrary1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Work\source\repos\Api_Order01\ClassLibrary1\obj\Debug\ClassLibrary1.csprojResolveAssemblyReference.cache
+C:\Users\Work\source\repos\Api_Order01\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CoreCompileInputs.cache
+C:\Users\Work\source\repos\Api_Order01\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CopyComplete
+C:\Users\Work\source\repos\Api_Order01\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\Work\source\repos\Api_Order01\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

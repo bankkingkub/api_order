@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Order_Food_dbModelStoreContainer" CdmEntityContainer="Order_Food_dbEntities2">
+    <EntitySetMapping Name="user_account">
+      <EntityTypeMapping TypeName="Order_Food_dbModel.user_account">
+        <MappingFragment StoreEntitySet="user_account">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="last" ColumnName="last" />
+          <ScalarProperty Name="pw" ColumnName="pw" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
