@@ -16,6 +16,7 @@ namespace Api_Order01.Controllers
     {
         public object JSONConvert { get; private set; }
 
+
         // GET api/<controller>
         public string Get()
         {
@@ -44,18 +45,19 @@ namespace Api_Order01.Controllers
                     adb.SelectCommand = cmd;
                     DataTable table = new DataTable();
                     adb.Fill(table);
-                    String JSONString = JsonConvert.SerializeObject(table);
-                    
-                    return JSONString;
+                    String JSONString = string.Empty;
+                    JSONString = JsonConvert.SerializeObject(table);
+                    String a = JSONString.Replace(@"\", @"\\");
+                    return a;
                 }
                 conn.Close();
             }
-            return "value";
         }
 
         // POST api/<controller>
         public void Post([FromBody]string value)
         {
+
         }
 
         // PUT api/<controller>/5
