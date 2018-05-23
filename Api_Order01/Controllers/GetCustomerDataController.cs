@@ -9,6 +9,7 @@ using CarBrokerManagement.Class;
 using System.Data;
 using Newtonsoft.Json;
 using Api_Order01.Class;
+using System.Text.RegularExpressions;
 
 namespace Api_Order01.Controllers
 {
@@ -27,8 +28,7 @@ namespace Api_Order01.Controllers
         new Get_set { id = 1, name  = "ABC", last  = "ABC",pw ="123"},
         new Get_set { id = 2, name  = "dfs", last  = "asdasd",pw ="15553"}
     }
-
-            }
+        }
             );
             return json;
         }
@@ -47,8 +47,7 @@ namespace Api_Order01.Controllers
                     adb.Fill(table);
                     String JSONString = string.Empty;
                     JSONString = JsonConvert.SerializeObject(table);
-                    String a = JSONString.Replace(@"\", @"\\");
-                    return a;
+                    return JSONString;
                 }
                 conn.Close();
             }
@@ -69,6 +68,5 @@ namespace Api_Order01.Controllers
         public void Delete(int id)
         {
         }
-
     }
 }
